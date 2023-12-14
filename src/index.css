@@ -1,0 +1,53 @@
+/*==========
+    resets
+  ==========*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+img {
+  user-select: none;
+}
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+button {
+  cursor: pointer;
+}
+body {
+  min-height: 100dvh;
+  padding-top: 3.5rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2ebe5;
+  color: #2b262d;
+}
+
+:root {
+  --primary-color: #9f496e;
+  --secondary-color: #647295;
+  --link-color: #31525b;
+}
